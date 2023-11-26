@@ -1,0 +1,27 @@
+ // Define a function
+ function greet(name) {
+    return "Hello, " + name + "!";
+}
+
+// Call the function
+var greetingMessage = greet("John");
+
+// Display the result
+console.log(greetingMessage);
+
+
+// Anonymous function assigned to a variable
+var addNumbers = function (a, b) {
+    return a + b;
+};
+
+// Calling the anonymous function
+var result = addNumbers(5, 7);
+
+// Displaying the result
+console.log("Result of adding numbers:", result);
+
+// Immediately Invoked Function Expression (IIFE)
+(function () {
+    console.log("This is an IIFE!");
+})();       
